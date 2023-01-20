@@ -1,0 +1,58 @@
+body {
+  background: url(img/1.jpg) no-repeat center center/cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 50%;
+  height: 250px;
+  border-radius: 35px;
+  opacity: 0.95;
+}
+
+#stopwatch {
+  text-align: center;
+  font-size: 3rem;
+  padding: 25px;
+  width: 100%;
+}
+
+.btns {
+  text-align: center;
+}
+
+button {
+  background-color: antiquewhite;
+  border: none;
+  margin-left: 50px;
+}
+
+button i {
+  font-size: 2rem;
+  width: 50%;
+  padding: 15px;
+  color: #fff;
+}
+
+#play {
+  background-color: rgb(12, 122, 12);
+}
+
+#pause {
+  background-color: rgb(235, 172, 57);
+}
+
+#reset {
+  background-color: red;
+}
+
+#play,
+#pause,
+#reset {
+  border-radius: 18px;
+}
